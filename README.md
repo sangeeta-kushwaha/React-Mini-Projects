@@ -12,7 +12,9 @@ Each project is simple, beginner-friendly, and focuses on one core concept of Re
 A simple app where you can change the background color of the page by clicking different color buttons.  
 - Change background with a single click  
 - Multiple color options  
-- Beginner-friendly UI  
+- Beginner-friendly UI
+
+- Live : [ https://eloquent-paletas-d5f522.netlify.app/ ]
 
 ---
 
@@ -22,7 +24,9 @@ An app that generates random secure passwords.
 - Option to include *numbers* and *special characters*  
 - One-click *copy to clipboard* feature  
 
----
+--
+
+-Live: [ https://sparkly-eclair-06b598.netlify.app/ ]
 
 ## 🚀 How to Run Any Project
 
@@ -55,7 +59,7 @@ npm run dev
 
 React.js
 
-CSS / Tailwind (depending on the project)
+CSS 
 
 Vite
 
