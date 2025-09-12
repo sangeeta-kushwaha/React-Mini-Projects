@@ -17,7 +17,7 @@ You can also copy the generated password with a single click.
 
 ---
 
-
+Live : [ https://sparkly-eclair-06b598.netlify.app/ ]
 ## 🛠 Installation & Usage
 
 1. Clone the repo:
