@@ -28,6 +28,19 @@ An app that generates random secure passwords.
 
 -Live: [ https://sparkly-eclair-06b598.netlify.app/ ]
 
+---
+
+### 3. 🔐 Multiple Card Layout
+-Dynamic rendering of cards from an array of objects
+-Responsive layout for mobile and desktop
+-Clean and minimal UI
+-Reusable React components
+-Beginner-friendly project for practicing React 
+
+--
+
+-Live: [ https://melodious-mermaid-fdacfa.netlify.app/ ]
+
 ## 🚀 How to Run Any Project
 
 1. Clone this repository:
