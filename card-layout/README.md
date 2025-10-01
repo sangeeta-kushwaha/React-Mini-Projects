@@ -1,12 +1,68 @@
-# React + Vite
+📄 Card-layout – README.md
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Multiple Card Layout
 
-Currently, two official plugins are available:
+A simple React app that displays multiple cards dynamically using an array of objects. Each card shows different data like title, description, or image in a clean and responsive layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+
+Dynamic rendering of cards from an array of objects
+
+Responsive layout for mobile and desktop
+
+Clean and minimal UI
+
+Reusable React components
+
+Beginner-friendly project for practicing React
+
+
+
+---
+
+🛠 Tech Stack
+
+React (Vite).
+
+CSS / Tailwind.
+
+
+
+---
+
+▶ How to Run Locally
+
+1. Clone the repository:
+git clone <your-repo-link>
+
+2. Navigate into the project:
+cd <project-folder-name>
+
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+---
+
+🌐 Live Demo
+
+Live Demo ([ https://melodious-mermaid-fdacfa.netlify.app/ ])
+
+
+---
+
+📌 Learning Purpose
+
+This project is created as part of my React practice. It demonstrates:
+
+Rendering data dynamically using arrays and map()
+
+Using props to pass data to components
+
+Responsive design using CSS / Tailwind
+
+Structuring reusable React components
