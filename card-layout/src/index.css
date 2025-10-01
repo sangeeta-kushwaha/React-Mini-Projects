@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-border {
+  border: 1px solid transparent;
+  border-image: linear-gradient(90deg, #ec4899, #fbbf24, #22c55e) 1;
+}
+
+@keyframes borderMove {
+  0% { border-image-source: linear-gradient(90deg, #e7ea1d, #f5270b, #22c55e); }
+  50% { border-image-source: linear-gradient(270deg, #22c55e, #3b82f6, #e00d0d); }
+  100% { border-image-source: linear-gradient(90deg, #ef0a0a, #fbbf24, #22c55e); }
+}
+
+.animated-border {
+  border: 2px solid transparent;
+  border-image-slice: 1;
+  animation: borderMove 5s infinite linear;
+}
