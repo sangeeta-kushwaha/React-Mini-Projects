@@ -9,14 +9,12 @@ function App() {
   const [cartItems, setCartItems] = useState([]);
 
   const handleAddToCart = (product) => {
-    const existItem = cartItems.find(
-      (item) => item.id === product.id
-    );
+    const existItem = cartItems.find((item) => item.id === product.id);
     if (existItem) {
       setCartItems(
         cartItems.map((item) =>
           item.id === product.id
-            ? {...item, quantity: item.quantity + 1 }
+            ? { ...item, quantity: item.quantity + 1 }
             : item
         )
       );
@@ -28,9 +26,7 @@ function App() {
   const increaseQuantity = (id) => {
     setCartItems(
       cartItems.map((item) =>
-        item.id === id
-          ? { ...item, quantity: item.quantity + 1 }
-          : item
+        item.id === id ? { ...item, quantity: item.quantity + 1 } : item
       )
     );
   };
@@ -38,9 +34,7 @@ function App() {
     setCartItems(
       cartItems
         .map((item) =>
-          item.id === id
-            ? { ...item, quantity: item.quantity - 1 }
-            : item
+          item.id === id ? { ...item, quantity: item.quantity - 1 } : item
         )
         .filter((item) => item.quantity > 0)
     );
@@ -54,7 +48,7 @@ function App() {
           {products.map((item) => (
             <Card
               key={item.id}
-              id ={item.id}
+              id={item.id}
               shoeImage={item.shoeImage}
               shoeName={item.shoeName}
               shoePrice={item.shoePrice}
@@ -75,3 +69,6 @@ function App() {
 }
 
 export default App;
+
+
+

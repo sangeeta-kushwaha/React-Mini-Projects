@@ -28,7 +28,7 @@ const Cart = ({ items, increaseQuantity, decreaseQuantity }) => {
                   </button>
                   <p>{item.quantity}</p>
                   <button
-                    onClick={() => increaseQuantity(item.shoeName)}
+                    onClick={() => increaseQuantity(item.id)}
                     className="border border-black px-2"
                   >
                     +
