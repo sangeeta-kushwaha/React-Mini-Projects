@@ -1,16 +1,62 @@
-# React + Vite
+ 👟 Shoe-Store
+Shoe Store is a responsive React-based web app built using Tailwind CSS, where users can browse different shoes, add them to their cart, adjust quantities, and see the total price dynamically.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It’s a perfect mini e-commerce project to understand state management, React props, and cart functionality in a real-world setup.
 
-Currently, two official plugins are available:
+--
+-Live: [https://bucolic-hamster-bc50ff.netlify.app/ ]
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Features
 
-## React Compiler
+✅ Browse stylish shoe products
+✅ Add/remove items from the cart
+✅ Increase/decrease product quantity
+✅ Auto-updated total price
+✅ Clean and modular React component structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+🛠 Tech Stack
+
+React (Vite).
+
+CSS / Tailwind.
+
+
+
+---
+
+▶ How to Run Locally
+
+1. Clone the repository:
+git clone <your-repo-link>
+
+2. Navigate into the project:
+cd <project-folder-name>
+
+3. Install dependencies:
+npm install
+
+4. Start the development server:
+npm run dev
+---
+
+🌐 Live Demo
+
+Live Demo ([ https://melodious-mermaid-fdacfa.netlify.app/ ])
+
+
+---
+
+📌 Learning Purpose
+
+This project is created as part of my React practice. It demonstrates:
+
+Rendering data dynamically using arrays and map()
+
+Using props to pass data to components
+
+Structuring reusable React components

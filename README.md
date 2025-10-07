@@ -41,6 +41,20 @@ An app that generates random secure passwords.
 
 -Live: [ https://melodious-mermaid-fdacfa.netlify.app/ ]
 
+---
+
+
+### 4. 👟 Shoe-Store
+✅ Browse stylish shoe products
+✅ Add/remove items from the cart
+✅ Increase/decrease product quantity
+✅ Auto-updated total price
+✅ Clean and modular React component structure
+
+--
+
+-Live: [https://bucolic-hamster-bc50ff.netlify.app/ ]
+
 ## 🚀 How to Run Any Project
 
 1. Clone this repository:
