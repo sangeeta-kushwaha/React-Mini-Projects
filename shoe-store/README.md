@@ -42,12 +42,6 @@ npm install
 
 4. Start the development server:
 npm run dev
----
-
-🌐 Live Demo
-
-Live Demo ([ https://melodious-mermaid-fdacfa.netlify.app/ ])
-
 
 ---
 
