@@ -4,7 +4,7 @@ Shoe Store is a responsive React-based web app built using Tailwind CSS, where u
 It’s a perfect mini e-commerce project to understand state management, React props, and cart functionality in a real-world setup.
 
 --
--Live: [https://bucolic-hamster-bc50ff.netlify.app/ ]
+-Live: [ https://darling-bavarois-20ac31.netlify.app/ ]
 ---
 
 🚀 Features
