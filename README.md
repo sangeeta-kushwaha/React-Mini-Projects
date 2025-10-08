@@ -53,7 +53,7 @@ An app that generates random secure passwords.
 
 --
 
--Live: [https://bucolic-hamster-bc50ff.netlify.app/ ]
+-Live: [https://darling-bavarois-20ac31.netlify.app/ ]
 
 ## 🚀 How to Run Any Project
 
