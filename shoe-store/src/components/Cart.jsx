@@ -1,5 +1,4 @@
 import React from "react";
-import { MdDelete } from "react-icons/md";
 
 const Cart = ({ items, increaseQuantity, decreaseQuantity }) => {
   const total = items.reduce(
@@ -34,9 +33,7 @@ const Cart = ({ items, increaseQuantity, decreaseQuantity }) => {
                   >
                     +
                   </button>
-                  <button>
-                    <MdDelete className="text-2xl" />
-                  </button>
+                  
                 </div>
               </div>
             </div>
